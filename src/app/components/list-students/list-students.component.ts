@@ -10,11 +10,21 @@ export class ListStudentsComponent {
   constructor(private student:StudentsService){}
   students:any=[];
 
+
   ngOnInit():void{
     this.student.GetAllStudent().subscribe((a)=>{
 
       this.students=a;
       console.log(this.students);
+    })
+
+  }
+  Delete(id:number){
+    this.student.remove(id).subscribe((remove)=>{
+      console.log("remove data",remove);
+      this.ngOnInit();
+
+
     })
 
   }

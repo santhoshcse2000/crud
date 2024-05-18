@@ -1,8 +1,19 @@
 {
   "students": [
-    { "id": "1", "name": "santhoshkumar", "email": "kumarssanthosh106@gmail.com" },
-    { "id": "2", "name": "sathish", "email": "sathish@gmail.com" },
-    {"id":"3","name":"gyau","email":"gayu@gmail.com"}
+    {
+      "name": "Santhosh",
+      "email": "Santhosh@gmail.com",
+      "id": "7116"
+    },
+    {
+      "name": "Santhopsj",
+      "email": "BVS@gmail.com",
+      "id": "e087"
+    },
+    {
+      "name": "santhoshkiumar",
+      "email": "acd@gamil.cok",
+      "id": "a1c8"
+    }
   ]
-
 }
